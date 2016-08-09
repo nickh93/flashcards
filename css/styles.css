@@ -1,0 +1,31 @@
+.card {
+  height: 300px;
+  background: url("../img/notepad.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.horizontal{
+    margin: 30px 0;
+    list-style-type: decimal;
+    list-style-type: none;
+}
+
+.horizontal li{
+    float: left;
+    padding: 2px 0px;
+    font-size: 14px;
+}
+
+.question {
+  display: none;
+}
+
+.answer {
+  display: none;
+}
+
+.active {
+  display: block;
+}
