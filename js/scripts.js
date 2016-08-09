@@ -1,6 +1,6 @@
 $(document).ready(function() {
   $(".reveal").click(function() {
-    $(this).next().addClass("hidden");
-    $(this).next().next().addClass("visible");
+    // This will hide the first sibling of the clicked class and reveal the second sibling over
+    $(this).next().addClass("hidden").next().removeClass("hidden");
   });
 }); // end ready
